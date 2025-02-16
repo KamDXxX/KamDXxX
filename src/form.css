@@ -1,0 +1,78 @@
+h1,h2,h3,h4,h5,h6{
+    margin-bottom:2px;
+    padding:15px;
+    text-align:center;
+    text-transform: uppercase;
+   }
+.application{
+    margin:0px auto;
+    padding:8px;
+    border:1px solid black;
+    background-color:rgb(240, 255, 247);
+    border-radius: 5px;
+    width:50%;
+}
+.age label{
+    padding-right:30px;
+    width: 100px;
+    font-weight: bold;
+    font-style:bold;
+}
+
+.age textarea{
+    width:50%;
+    height:130px;
+    padding:5px;
+    font-size: larger;
+}
+
+.age{
+    display:flex;
+    align-items: left;
+    margin-bottom: 20px;
+    }
+
+.age input{
+    padding: 5px;
+    width: 300px;
+    border:2px solid grey;
+    border-radius:5px;
+}
+#divs{
+    margin:5px auto;
+    width:28%;
+}
+
+#check{
+    width: 16px;
+    height: 16px;
+    cursor:pointer;
+    
+}
+
+.age input[type="submit"]{
+    background-color:lightseagreen;
+    padding:4px;
+    width: 10em;
+    margin:15px 90px;
+    color:white;
+    font-weight: 700;
+    cursor:pointer;
+
+}
+#option{
+    padding:5px;
+    font-size:small;
+    border-radius:5px;
+}
+
+.application::before{
+    content: "Personal Details";
+    position:relative;
+    transform:translateX(-50%);
+    top:-18px;
+    left: 40%;
+    background-color:white;
+    padding:0 5px;
+    
+}
